@@ -30,4 +30,10 @@ def update
   @contact.save
   render 'show.json.jb'
  end
+
+ def destroy
+  @contact = Contact.find_by(id: params[:id])
+render 'destroy.json.jb'
+
+ end
 end
