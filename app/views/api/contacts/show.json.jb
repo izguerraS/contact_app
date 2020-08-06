@@ -4,5 +4,8 @@ first_name: @contact.first_name,
 last_name: @contact.last_name,
 email: @contact.email,
 phone_number: @contact.phone_number,
+family: @contact.family,
+friends: @contact.friends,
+co_worker: @contact.co_worker
 
 }
